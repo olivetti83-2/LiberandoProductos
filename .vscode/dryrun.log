@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/olivetti/Descargas/olivetti_liberando_practica/PRACTICA_FINAL'
+python3 -m venv venv
+venv/bin/pip install -r requirements.txt
+venv/bin/python3 src/app.py
+make: Leaving directory '/home/olivetti/Descargas/olivetti_liberando_practica/PRACTICA_FINAL'
+ 
